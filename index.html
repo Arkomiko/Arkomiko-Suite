@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> Arkomiko - Calling card </title>
+  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="icon" href="./sourse/img/channels4_profile.ico" type="image/x-icon" />
+</head>
+
+<body>
+  <!-- Элемент загрузки -->
+  <loader id="loader"></loader>
+
+  <!-- Фоновые ресурсы -->
+  <bg class="background-container">
+    <iframe src="./sourse/background/index.html" class="background-iframe"></iframe>
+  </bg>
+
+  <!-- Карточка с информацией -->
+  <div class="card" data-state="#about">
+    <!-- ----------------------------------------------------------------------------------- -->
+    <!-- ШАПКА в карточках С АВАТАРКОЙ -->
+    <!-- ----------------------------------------------------------------------------------- -->
+    <div class="card-header">
+      
+      <!-- Обложка -->
+      <div class="card-cover" style="background-color: black;">
+        <iframe style="background-color: black; background-image: url(./sourse/img/cart_bloom.jpg);" class="background-iframe"></iframe>
+      </div>
+      
+      <!-- Аватар -->
+      <img class="card-avatar" src="./sourse/img/channels4_profile.jpg" alt="avatar" />
+      
+      <!-- ТЕКС + КАНАЛЫ  -->
+      <div>
+        <!-- Имя -->
+        <h1 class="card-fullname custom-text">
+          <loca id="lcl-head-1">Arkomiko</loca>
+        </h1>
+        <!-- Должность/Описание -->
+        <h2 class="card-jobtitle">
+          <loca id="lcl-head-1t">Game | Live | Musick</loca>
+        </h2>
+      </div>
+    
+    </div>
+    
+    <!-- ----------------------------------------------------------------------------------- -->
+
+
+
+    <div class="card-main"> <!--  Стиль карточки для контента  -->
+
+      <!-- ----------------------------------------------------------------------------------- -->
+      <!--  Раздел "Про меня"  -->
+      <!-- ----------------------------------------------------------------------------------- -->
+      <div class="card-section is-active" id="about">
+        <div class="card-content">
+
+          <!-- Заголовок -->
+          <div class="card-subtitle">
+            <loca id="lcl-ab-1">lcl-ab-1 Lorem, ipsum dolor sit amet consectetur adipisicing elit. .</loca>
+          </div>
+          
+          <!-- Описание -->
+          <p class="card-desc">
+            <loca id="lcl-ab-1t">lcl-ab-1t Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis commodi odio facere
+              culpa suscipit aliquid quam sequi explicabo odit alias quis facilis, hic modi fuga optio, aut quibusdam
+              vero sunt. Lorem ipsum dolor sit amet consectetur adipisicing elit.</loca>
+          </p>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- ----------------------------------------------------------------------------------- -->
+      <!--  Раздел "Опыть работы"  -->
+      <!-- ----------------------------------------------------------------------------------- -->
+      
+      <div class="card-section" id="experience">
+        <div class="card-content">
+          
+          <!-- Заголовок раздела -->
+          <div class="card-subtitle">
+            <loca id="lcl-exp-sub">lcl-exp-sub ОПЫТ РАБОТЫ</loca>
+          </div>
+
+          <!-- Таймлайн опыта -->
+          <div class="card-timeline">
+            
+            <!-- Чекпоинт 1 -->
+            <div class="card-item" data-year="2000">
+              
+              <div class="card-item-title">
+                <loca id="lcl-exp-1">lcl-exp-1 Sub</loca>
+              </div>
+
+              <div class="card-item-desc">
+                <loca id="lcl-exp-1t">lcl-exp-1t Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis qui nesciunt ut culpa error quas maiores excepturi architecto ipsa soluta at veniam, nobis, a quis possimus esse nemo doloribus voluptatibus.</loca>
+              </div>
+            </div>
+
+            <!-- Элемент опыта -->
+            <div class="card-item" data-year="2000">
+              
+              <div class="card-item-title">
+                <loca id="lcl-exp-2">lcl-exp-2 Sub</loca>
+              </div>
+
+              <div class="card-item-desc">
+                <loca id="lcl-exp-2t">lcl-exp-2t Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis qui nesciunt ut culpa error quas maiores excepturi architecto ipsa soluta at veniam, nobis, a quis possimus esse nemo doloribus voluptatibus.</loca>
+              </div>
+            </div>
+
+            <!-- Элемент опыта -->
+            <div class="card-item" data-year="2000">
+              
+              <div class="card-item-title">
+                <loca id="lcl-exp-3">lcl-exp-3 Sub</loca>
+              </div>
+
+              <div class="card-item-desc">
+                <loca id="lcl-exp-3t">lcl-exp-3t Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis qui nesciunt ut culpa error quas maiores excepturi architecto ipsa soluta at veniam, nobis, a quis possimus esse nemo doloribus voluptatibus.</loca>
+              </div>
+            </div>
+
+            <!-- Элемент опыта -->
+            <div class="card-item" data-year="2000">
+              
+              <div class="card-item-title">
+                <loca id="lcl-exp-4">lcl-exp-4 Sub</loca>
+              </div>
+
+              <div class="card-item-desc">
+                <loca id="lcl-exp-4t">lcl-exp-4t Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis qui nesciunt ut culpa error quas maiores excepturi architecto ipsa soluta at veniam, nobis, a quis possimus esse nemo doloribus voluptatibus.</loca>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- ----------------------------------------------------------------------------------- -->
+      <!--  Раздел "Контакты"  -->
+      <!-- ----------------------------------------------------------------------------------- -->
+      <div class="card-section" id="contact">
+        <div class="card-content">
+
+          <div class="card-subtitle">
+            <loca id="lcl-cont-sub">lcl-cont-sub Contact</loca>
+          </div>
+          
+          <div class="card-contact-wrapper">
+            
+            <div class="card-contact">
+              <loca id="lcl-cont-text">lcl-cont-text Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam mollitia labore praesentium consequuntur odit esse ipsam, amet similique pariatur sit, libero nesciunt provident doloremque vel nemo nam omnis maiores accusantium.</loca>
+            </div>
+            
+            <!-- Контакт: email -->
+            <div class="card-contact">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                <path d="M22 6l-10 7L2 6" />
+              </svg>
+
+              <loca id="lcl-cont-email">lcl-cont-email</loca>
+            </div>
+            
+            <!-- <button class="contact-me"><loca id="lcl-cont-butt-WT">lcl-18 WORK TOGETHER</loca></button> -->
+             
+          </div>
+        </div>
+      </div>
+
+      <!-- Навигация -->
+      <div class="card-buttons">
+
+        <button data-section="#about" class="is-active">
+          <loca id="lcl-butmenu-1">lcl-butmenu-1</loca>
+        </button>
+        
+        <button data-section="#experience">
+          <loca id="lcl-butmenu-2">lcl-butmenu-2</loca>
+        </button>
+        
+        <button data-section="#contact">
+          <loca id="lcl-butmenu-3">lcl-butmenu-3</loca>
+        </button>
+      </div>
+    
+    </div>
+  </div>
+
+  <!-- <button id="lang-en">English</button>
+<button id="lang-ru">Русский</button> -->
+
+  <!-- Скрипт -->
+  <script src="./js/script.js"></script>
+  <script src="./js/language.js"></script>
+</body>
+
+</html>

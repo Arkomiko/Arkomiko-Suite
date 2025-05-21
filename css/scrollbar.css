@@ -1,0 +1,47 @@
+/* Общий стиль для всего скроллбара */
+::-webkit-scrollbar {
+    width: 12px; /* ширина вертикального скроллбара */
+    height: 12px; /* высота горизонтального скроллбара */
+}
+
+/* Сам ползунок (драг-элемент) */
+::-webkit-scrollbar-thumb {
+    background-color: #34079e; /* полупрозрачный белый цвет */
+    border-radius: 6px; /* скругление */
+    border: 3px solid transparent; /* для отступа внутри */
+    backdrop-filter: blur(4px); /* эффект размытости для стеклянного эффекта */
+    
+    -webkit-backdrop-filter: blur(4px);
+}
+
+/* Трек (фон скроллбара) */
+::-webkit-scrollbar-track {
+  
+    background: rgba(61, 6, 68, 0.1); /* очень прозрачный фон */
+    border-radius: 6px; /* скругление */
+}
+
+/* Кнопки стрелок (если есть) */
+::-webkit-scrollbar-button {
+    display: none; /* скрываем стрелки, можно убрать если нужны */
+}
+
+/* Для горизонтальной полосы */
+::-webkit-scrollbar:horizontal {
+    height: 3px;
+}
+
+/* Для вертикальной полосы (можно не задавать, если одинаково) */
+::-webkit-scrollbar:vertical {
+    width: 3px;
+}
+
+/* Нижний угол, где встречаются оба скроллбара (часто не нужен) */
+::-webkit-scrollbar-corner {
+    background: transparent;
+}
+
+/* Для ресайзера (если есть) */
+::-webkit-resizer {
+    background: rgba(255,255,255,0.2);
+}
