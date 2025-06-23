@@ -15,7 +15,7 @@
 
   <!-- Фоновые ресурсы -->
   <bg class="background-container">
-    <iframe src="./sourse/background/index.html" class="background-iframe"></iframe>
+    <iframe src="./sourse/background/index_nogui.html" class="background-iframe"></iframe>
   </bg>
 
   <!-- Карточка с информацией -->
@@ -31,17 +31,23 @@
       </div>
       
       <!-- Аватар -->
-      <img class="card-avatar" src="./sourse/img/channels4_profile.jpg" alt="avatar" />
-      
+      <a href="https://www.youtube.com/@arkomiko" style="text-decoration: none;"><img class="card-avatar" src="./sourse/img/channels4_profile.jpg" alt="avatar" /></a>
       <!-- ТЕКС + КАНАЛЫ  -->
       <div>
         <!-- Имя -->
         <h1 class="card-fullname custom-text">
-          <loca id="lcl-head-1">Arkomiko</loca>
+          <loca id="lcl-head-1">
+            </a href="https://www.youtube.com/@arkomiko" style="text-decoration: none">
+            Arkomiko
+            </a>
+          </loca>
         </h1>
         <!-- Должность/Описание -->
         <h2 class="card-jobtitle">
-          <loca id="lcl-head-1t">Game | Live | Musick</loca>
+          <loca id="lcl-head-1t">
+            <a href="https://www.youtube.com/@arkomiko_live" style="text-decoration: none; color:#9c337d">Live</a> | 
+            <a href="https://www.youtube.com/@arkomiko_game" style="text-decoration: none; color:#2b48b1">Game</a> | 
+            <a href="https://www.youtube.com/@arkomiko_music" style="text-decoration: none; color:#8825bd">Musick</a></loca>
         </h2>
       </div>
     
@@ -61,19 +67,27 @@
 
           <!-- Заголовок -->
           <div class="card-subtitle">
-            <loca id="lcl-ab-1">lcl-ab-1 Lorem, ipsum dolor sit amet consectetur adipisicing elit. .</loca>
+            <loca id="lcl-ab-1">Basic information</loca>
           </div>
           
           <!-- Описание -->
           <p class="card-desc">
-            <loca id="lcl-ab-1t">lcl-ab-1t Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis commodi odio facere
-              culpa suscipit aliquid quam sequi explicabo odit alias quis facilis, hic modi fuga optio, aut quibusdam
-              vero sunt. Lorem ipsum dolor sit amet consectetur adipisicing elit.</loca>
+            <loca id="lcl-ab-1t">Sorry... At the moment, the Vcard is still being created. Thanks for coming OwO</loca>
+          </p>
+
+          <p class="card-desc" style="font-size: 8px; color:#cfc1e0">
+            <loca id="lcl-ab-2t"><br><br><br>
+            If you want, you can play with the background here.<br><br>
+            <a href="/sourse/background/index.html" style="font-size: 7px; color:#bbbbbb; background-color: #f5f5f5; padding: 1%; text-decoration: none;">Background Edit</a> <br><br>
+            Press the letter "V" on the keyboard. And the control panel will appear in the upper left corner.
+            </loca>
           </p>
 
           </div>
         </div>
       </div>
+
+      <hidecon style="display:none;">	
 
       <!-- ----------------------------------------------------------------------------------- -->
       <!--  Раздел "Опыть работы"  -->
@@ -190,16 +204,18 @@
           <loca id="lcl-butmenu-3">lcl-butmenu-3</loca>
         </button>
       </div>
-    
+      </hidecon>
     </div>
-  </div>
 
+    
+  </div>
+	
   <!-- <button id="lang-en">English</button>
 <button id="lang-ru">Русский</button> -->
 
   <!-- Скрипт -->
+
   <script src="./js/script.js"></script>
   <script src="./js/language.js"></script>
 </body>
-
 </html>

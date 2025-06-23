@@ -2,7 +2,7 @@ let canvas, ctx, field, w, h, fieldSize, columns, rows, noiseZ, particles, hue;
 noiseZ = 0;
 
 // Control Panel
-enableGUI = true;
+enableGUI = false;
 
 // Base Setting
 //---------------------

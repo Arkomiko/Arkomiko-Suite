@@ -150,14 +150,12 @@
 }
 /* Подключение собственного шрифта через @font-face */
 @font-face {
-  font-family: "Halfomania";
-  src: url("../sourse/fonts/halfomania_regular.ttf") format('truetype'),
-    url("../sourse/fonts/halfomania_regular.ttf") format('truetype');
+  font-family: "halfomania";
+  src: url("../sourse/fonts/halfomania_regular.ttf") format("ttf"),
+    url("../sourse/fonts/halfomania_regular.ttf") format("ttf");
   font-weight: normal;
   font-style: normal;
 }
-
-
 
 /* Использование шрифта для конкретного текста */
 .custom-text {
